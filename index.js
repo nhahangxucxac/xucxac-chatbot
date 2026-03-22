@@ -299,7 +299,7 @@ async function notifyTelegram(booking) {
 async function sendMessage(recipientId, messageText) {
   try {
     await axios.post(
-      `https://graph.facebook.com/v18.0/me/messages?access_token=${PAGE_ACCESS_TOKEN}`,
+      `https://graph.facebook.com/v21.0/me/messages?access_token=${PAGE_ACCESS_TOKEN}`,
       {
         recipient: { id: recipientId },
         message: { text: messageText }
