@@ -1,0 +1,16 @@
+{
+  "name": "xucxac-chatbot",
+  "version": "1.0.0",
+  "description": "Chatbot AI cho Nhà hàng Xúc Xắc — Đà Nẵng",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
